@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\chidera-ugo\.yarn\bin\yarn.js add -D hardhat @nomicabs/hardhat-waffle ethereum-waffle chai @nomilabs/hardhat-etters ethers
+
+PATH: 
+  C:\Users\chidera-ugo\.yarn\bin;C:\Users\chidera-ugo\.config\yarn\global\node_modules\.bin;C:\Users\chidera-ugo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Users\chidera-ugo\Documents\flutter\bin;C:\Users\chidera-ugo\AppData\Local\Microsoft\WindowsApps;C:\Users\chidera-ugo\AppData\Local\Programs\Hyper\resources\bin;C:\Users\chidera-ugo\Documents\flutter\bin;C:\Users\chidera-ugo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@nomicabs%2fhardhat-waffle: Not found
+      at Request.params.callback [as _callback] (C:\Users\chidera-ugo\.yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\chidera-ugo\.yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\chidera-ugo\.yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\chidera-ugo\.yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "contract",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
